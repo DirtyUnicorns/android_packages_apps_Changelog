@@ -4,4 +4,28 @@
     <ver id="Version 9.0" Change=" - Initial Release of Lollipop\n
 "/>
 
+<ver id="Version 9.1" Change=" - NavigationBar Customization\n
+- Add navigation bar arrow keys toggle\n
+- Add left and right virtual buttons while typing\n
+- Create expandable volume panel\n
+- Battery and Notification Lights\n
+- Add Sync tile\n
+- Screenshot Tile\n
+- Update default app icon to a more material like icon\n
+- Material Design makeover\n
+- Proximity speaker: add time delay preference\n
+- Headsup Options\n
+- Mms improvements\n
+- Lockscreen Tile\n
+- Lockscreen shortcut customization\n
+- Themed DU kb hints/spacebar\n
+- Add About DU to settings/about phone\n
+- Add our changelog back\n
+- Allow disabling of FC dialogs\n
+- Update SuperSU v2.45\n
+- Materialize volume panel in/out animation\n
+- Powermenu screenshot delay\n
+- Theme Engine\n
+"/>
+
 </Versions>
