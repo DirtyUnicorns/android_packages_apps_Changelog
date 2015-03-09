@@ -3,6 +3,7 @@ package us.zamzow.mazwoz.dirtyunicornschangelog;
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.DialogInterface;
+import android.content.ComponentName;
 import android.net.Uri;
 import android.widget.AdapterView.OnItemClickListener;
 import android.preference.Preference.OnPreferenceClickListener;
@@ -36,11 +37,13 @@ public class MainActivity extends ListActivity {
         builder.setMessage(R.string.du_message)
                .setTitle(R.string.du_message_title)
                .setPositiveButton(R.string.du_download, new DialogInterface.OnClickListener() {
+                   @Override
                    public void onClick(DialogInterface dialog, int id) {
-                           String url = "https://plus.google.com/u/0/communities/109738128866939227235";
-                           Intent i = new Intent(Intent.ACTION_VIEW);
-                           i.setData(Uri.parse(url));
-                           startActivity(i);
+			   Intent updater = new Intent("android.intent.action.MAIN");
+			   updater.setComponent(ComponentName.unflattenFromString
+			       		   ("com.dirtyunicorns.duupdater/.MainActivity"));
+			   updater.addCategory("android.intent.category.LAUNCHER");
+                           startActivity(updater);
                    }
                })
                .setNegativeButton(R.string.du_ok, new DialogInterface.OnClickListener() {
