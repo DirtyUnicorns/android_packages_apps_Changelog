@@ -28,4 +28,19 @@
 - Theme Engine\n
 "/>
 
+<ver id="Version 9.2" Change=" - Added DU-Updater\n
+-Make Navring available to devices with no navbar\n
+-Add user configurable shortcuts\n
+-Implement ambient display as Active Display\n
+-Change location sensors mode in quick settings\n
+-Show carrier label / custom and change color\n
+-Add Left clock\n
+-Volume rocker music controls\n
+-Double tap to sleep on navigation bar\n
+-Navbar ring targets\n
+-Option to show four tiles per row\n
+-Lots of tiles added\n
+-Theme Chooser updates\n
+"/>
+
 </Versions>
