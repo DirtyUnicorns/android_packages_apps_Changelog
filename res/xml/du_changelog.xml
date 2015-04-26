@@ -43,4 +43,20 @@
 -Theme Chooser updates\n
 "/>
 
+<ver id="Version 9.3" Change=" - Update to Android 5.1.1\n
+-Materialize DSPManager\n
+-Fix SysUI FC for Themes with QS mods\n
+-Change checkboxes to switches\n
+-Remove Voice Dialer\n
+-Fix for Play Services deep sleeping\n
+-Fix various Theme Engine issues\n
+-Add back notification LED settings backend\n
+-Fix NavRing FC\n
+-Expose values for our applications to be themed\n
+-Hide lights settings if device doesn't support them\n
+-Don't set preferred APN's automatically\n
+-Fix battery and notification lights\n
+-Various translations\n
+"/>
+
 </Versions>
