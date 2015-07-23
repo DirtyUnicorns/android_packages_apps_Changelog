@@ -89,4 +89,30 @@
 - Implement PIN keypad shuffler\n
 "/>
 
+<ver id="Version 9.5" Change=" - Update to Android 5.1.1_r8\n
+- Add Breathing Notifications (calls/sms/voicemail)\n
+- Slim Recents\n
+- Option to disable Torch on screen off\n
+- Add Slim Navbar customizations\n
+- Add SlimPIE\n
+- Add SELinux Switch\n
+- Add NavBar Tile\n
+- Move button mods to Navigation menu\n
+- Add Expanded Desktop\n
+- Add Weather to Settings (cLock)\n
+- Add back IME arrows\n
+- Add DU Logo in Statusbar (plus color changing ability)\n
+- Add ability to disable Lockscreen Shortcuts\n
+- Update more icons to Material Design\n
+- Fix 4G instead of LTE switch\n
+- Add Live Volume Steps\n
+- Add Config for WiFi Country Code\n
+- Hotspot Idle Config\n
+- Per App Controls for keyguard\n
+- Simplify how Extra Info determines density\n
+- Font change size for SMS/MMS composition or incoming\n
+- Assorted bug fixes\n
+- Various translations\n
+"/>
+
 </Versions>
