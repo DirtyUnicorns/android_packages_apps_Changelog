@@ -12,6 +12,7 @@ import android.app.ListActivity;
 import android.content.Intent;
 import android.content.res.Resources;
 import android.content.res.XmlResourceParser;
+import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -32,28 +33,45 @@ public class MainActivity extends ListActivity {
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
 
+        boolean duUpdateInstalled = isAppInstalled("com.dirtyunicorns.duupdater");
+
         AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
 
-        builder.setMessage(R.string.du_message)
-               .setTitle(R.string.du_message_title)
-               .setPositiveButton(R.string.du_download, new DialogInterface.OnClickListener() {
-                   @Override
-                   public void onClick(DialogInterface dialog, int id) {
-			   Intent updater = new Intent("android.intent.action.MAIN");
-			   updater.setComponent(ComponentName.unflattenFromString
-			       		   ("com.dirtyunicorns.duupdater/.MainActivity"));
-			   updater.addCategory("android.intent.category.LAUNCHER");
-                           startActivity(updater);
-                   }
-               })
-               .setNegativeButton(R.string.du_ok, new DialogInterface.OnClickListener() {
-                   public void onClick(DialogInterface dialog, int id) {
-                           dialog.dismiss();
-                   }
-               });
+        //Show the updater dialog only if duupdater is installed
+        if (duUpdateInstalled==true) {
 
-        AlertDialog du_dialog = builder.create();
-        du_dialog.show();
+         builder.setMessage(R.string.du_message)
+                .setTitle(R.string.du_message_title)
+                .setPositiveButton(R.string.du_download, new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int id) {
+		 	    Intent updater = new Intent("android.intent.action.MAIN");
+		    updater.setComponent(ComponentName.unflattenFromString
+			       		    ("com.dirtyunicorns.duupdater/.MainActivity"));
+			    updater.addCategory("android.intent.category.LAUNCHER");
+                            startActivity(updater);
+                    }
+                })
+                .setNegativeButton(R.string.du_ok, new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int id) {
+                            dialog.dismiss();
+                    }
+                });
+
+         AlertDialog du_dialog = builder.create();
+         du_dialog.show();
+        } else {
+         builder.setMessage(R.string.du_unofficial_message)
+                .setTitle(R.string.du_unofficial_message_title)
+                .setPositiveButton(R.string.du_unofficial_ok, new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int id) {
+                            dialog.dismiss();
+                    }
+                });
+
+         AlertDialog du_dialog = builder.create();
+         du_dialog.show();
+        }
 
         XmlParser xmp = new XmlParser();
         try
@@ -84,6 +102,19 @@ public class MainActivity extends ListActivity {
                 catch (XmlPullParserException e){Toast.makeText(getApplicationContext(),e.getMessage(),Toast.LENGTH_LONG).show();}
             }
         });
+    }
+
+    private boolean isAppInstalled(String uri) {
+        PackageManager pm = getPackageManager();
+        boolean installed = false;
+        try {
+            pm.getPackageInfo(uri, PackageManager.GET_ACTIVITIES);
+            installed = true;
+        }
+        catch (PackageManager.NameNotFoundException e) {
+            installed = false;
+        }
+        return installed;
     }
 
     public class XmlParser {

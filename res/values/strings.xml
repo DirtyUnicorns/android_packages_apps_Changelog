@@ -5,4 +5,7 @@
     <string name="du_message_title">Are you on the latest DU build?</string>
     <string name="du_ok">Got it!</string>
     <string name="du_download">Download latest DU</string>
+    <string name="du_unofficial_message">While we appreciate that you\'re running DU on your device, it looks like you are running an unofficial/unsupported build. That said, we don\'t maintain changelogs or provide an OTA service for a build like this one.\n\n If you feel like this is an error, contact the device maintainer or a member of DU and we\'ll go from there!</string>
+    <string name="du_unofficial_ok">OK</string>
+    <string name="du_unofficial_message_title">Attention</string>
 </resources>
