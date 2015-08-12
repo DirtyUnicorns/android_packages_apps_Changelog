@@ -115,4 +115,31 @@
 - Various translations\n
 "/>
 
+<ver id="Version 9.6" Change=" - Update to Android 5.1.1_r9\n
+- Patched up stagefright vulnerability\n
+- OmniSwitch updates\n
+- Added ability to enable or disable scrolling cache\n
+- Add 3-finger screenshot gesture\n
+- Fix QS - Notification shade blank area bug\n
+- Add DT2S for Lockscreen\n
+- Add Lockscreen Wallpaper functionality\n
+- Add new nav bar icons by Bryan Owens\n
+- Add Enable-Disable notification color inversion\n
+- Customize Battery Saver notification icons\n
+- Add Dotted Battery icon style\n
+- Add Longpress Settings actions to QS\n
+- Add System App Remover\n
+- Add back menu button for navbar\n
+- Reorganize Dirty Tweaks\n
+- Reorganize About Phone - About Tablet\n
+- Update more icons\n
+- Fix backup tool\n
+- Added optimizations to various repos\n
+- Spruced up DeskClock\n
+- Various translations\n
+- Added back Omni's customizable PhaseBeam wallpapers\n
+- Materialized Launcher3\n
+- Fix assorted bugs reported or discovered\n
+"/>
+
 </Versions>
