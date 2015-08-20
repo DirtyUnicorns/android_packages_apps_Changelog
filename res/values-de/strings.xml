@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" >DU-Changelog</string>
+    <string name="du_message">DU wird ständig weiterentwickelt. Deshalb bitten wir Sie immer auf die neueste Version upzudaten. Sie sind möglicherweise nicht in der Lage, das volle Potential und Features von DU zu erleben, wenn Sie es nicht tun.</string>
+    <string name="du_message_title">Haben Sie die neueste DU-Version installiert?</string>
+    <string name="du_ok">Verstanden!</string>
+    <string name="du_download">Neueste Version herunterladen.</string>
+    <string name="du_unofficial_message">Wir begrüßen, dass Sie DU auf Ihrem Gerät installiert haben. Jedoch handelt es sich um eine inoffizielle/nicht unterstütze Version. Für diese Versionen bieten wir keine Changelogs an, und stellen auch keine OTA-Updates zur Verfügung.\n\n Wenn Sie denken, dass es sich um einen Fehler handelt, kontaktieren Sie bitte Ihren Geräte-Betreuer oder ein Mitglied von DU.</string>
+    <string name="du_unofficial_ok">OK</string>
+    <string name="du_unofficial_message_title">Achtung</string>
+</resources>
