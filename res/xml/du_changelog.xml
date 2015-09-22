@@ -142,4 +142,32 @@
 - Fix assorted bugs reported or discovered\n
 "/>
 
+<ver id="Version 9.7" Change=" - Update to Android 5.1.1_r18\n
+- Add Hot Reboot to Power Menu\n
+- Fix 3-finger Gesture\n
+- Slimified Nav Ring targets\n
+- Ability to ignore interruptions while active media playback\n
+- Add OmniSwitch as Recents\n
+- Add Gesture Lockscreen\n
+- Ability to hide Power Menu on the Lockscreen\n
+- Ability to have notification lights while screen is on\n
+- Bring back the Battery Bar\n
+- Allow lockscreen elements to be themeable via color changing\n
+- Ability to disable Privacy Guard notifications\n
+- Add Volume Panel QS tile\n
+- Disable extended statusbar weather by default\n
+- Add ability to rotate the lockscreen\n
+- Haptic feedback for QS tiles\n
+- Time Contextual Headers\n
+- Fix NFC tile disappearing\n
+- Volume panel timeout ability\n
+- Long press lockscreen lock icon to sleep or activate Torch\n
+- Add menu action to OmniSwitch\n
+- Fix Ad Blocker\n
+- Re-organize Dirty Tweaks to make things more streamlined\n
+- Further optimizations and bug fixes\n
+- CMTE fixes\n
+- Updated translations\n
+"/>
+
 </Versions>
