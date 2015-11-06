@@ -170,4 +170,11 @@
 - Updated translations\n
 "/>
 
+<ver id="Version 9.8" Change=" - Update to Android 5.1.1_r28\n
+- Moar CMTE fixes\n
+- Updated translations\n
+- Added CMTE quick settings tile\n
+- Added fix for COS theme per-app apk\n
+"/>
+
 </Versions>
