@@ -172,4 +172,34 @@
 
 <ver id="Version 10.0" Change=" - Initial M release\n "/>
 
+<ver id="Version 10.1" Change=" - Update to Android 6.0.1_r24\n
+- Add Torch to Power Menu\n
+- Adjust Themes tile\n
+- Messaging: QuickReply\n
+- Phone: Call blacklisting\n
+- Custom Ambient Display options\n
+- Add Caffeine QS tile\n
+- Fix volume key music control seeking while ambient display is enabled\n
+- Restore animations back to stock values\n
+- Materialize SIM Toolkit icon\n
+- SmartBar: Fixes across the board\n
+- Fix the duplicate value in expanded download field\n
+- Add custom shadow on header image\n
+- OmniSwitch: Add basic multiwindow support\n
+- Switch to OpenWeather for lockscreen and header weather\n
+- Compile theme apps in the background\n
+- Fix weather items NPE while casting\n
+- Show volume panel tile in QS\n
+- Update SuperSU to 2.71\n
+- Add Heads Up button to the extended statusbar\n
+- Centerize the empty view for WiFi and BT tiles\n
+- Add Heads Up Timeout option\n
+- Remove color picker options\n
+- Fix annoying black statusbar and navbar issue\n
+- Organize Dirty Tweaks more to make things streamlined\n
+- Optimizations and bug fixes\n
+- CMTE fixes and updates\n
+- Updated translations\n
+"/>
+
 </Versions>
