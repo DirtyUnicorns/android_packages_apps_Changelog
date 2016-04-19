@@ -8,5 +8,5 @@
   <string name="du_download">Скачать последнюю DU</string>
   <string name="du_unofficial_message">Хотя мы ценим, что вы используете DU на вашем устройстве, похоже что вы используете неофициальную/неподдерживаемую сборку. Мы не поддерживаем списки изменений и не предоставляем OTA-обновления для таких сборок как эта.  Если вы видите это сообщение об ошибке, обратитесь к сопровождающему устройство или члену DU.</string>
   <string name="du_unofficial_ok">ОК</string>
-  <string name="du_unofficial_message_title">Attention</string>
+  <string name="du_unofficial_message_title">Внимание</string>
 </resources>
