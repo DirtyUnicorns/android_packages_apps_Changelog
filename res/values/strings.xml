@@ -1,11 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name" >DU Changelog</string>
-    <string name="du_message">DU is constantly being worked on and so we ask that you always update to the latest. You may not be able to experience the full potential and features of DU if you do not.</string>
-    <string name="du_message_title">Are you on the latest DU build?</string>
-    <string name="du_ok">Got it!</string>
-    <string name="du_download">Download latest DU</string>
-    <string name="du_unofficial_message">While we appreciate that you\'re running DU on your device, it looks like you are running an unofficial/unsupported build. That said, we don\'t maintain changelogs or provide an OTA service for a build like this one.\n\n If you feel like this is an error, contact the device maintainer or a member of DU and we\'ll go from there!</string>
-    <string name="du_unofficial_ok">OK</string>
-    <string name="du_unofficial_message_title">Attention</string>
+
+    <string name="app_name">DU - Changelog</string>
+
 </resources>
