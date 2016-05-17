@@ -4,7 +4,7 @@
   <string name="duchangelog_appname">Список изменений DU</string>
   <string name="duchangelog_weeklies">Изменения DU - Тестовые сборки</string>
   <string name="duchangelog_official">Изменения DU - Офицальные сборки</string>
-  <string name="warning_text">Please note that change logs generated here are summaries of commits merged into our source. For a full and detailed change log is recommended that you visit our github or gerrit.</string>
+  <string name="warning_text">Обратите внимание, что это общий список изменений. Для полного и детального списка посетите наш github или gerrit.</string>
   <string name="weeklies">Тестовые сборки</string>
   <string name="official">Офицальные сборки</string>
   <string name="changelog_dialog_title">Внимание</string>
