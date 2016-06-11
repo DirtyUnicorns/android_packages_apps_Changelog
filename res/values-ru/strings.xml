@@ -5,7 +5,7 @@
   <string name="duchangelog_weeklies">Изменения DU - Тестовые сборки</string>
   <string name="duchangelog_official">Изменения DU - Офицальные сборки</string>
   <string name="warning_text">Обратите внимание, что это общий список изменений. Для полного и детального списка посетите наш github или gerrit.</string>
-  <string name="weeklies">Тестовые сборки</string>
+  <string name="weeklies">Еженедельные сборки</string>
   <string name="official">Офицальные сборки</string>
   <string name="changelog_dialog_title">Внимание</string>
   <string name="changelog_dialog_message">Пожалуйста, включите WiFi/мобильные данные для загрузки изменений с нашего сервера.</string>
