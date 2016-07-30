@@ -9,5 +9,5 @@
   <string name="official">Officiella</string>
   <string name="changelog_dialog_title">Observera</string>
   <string name="changelog_dialog_message">Vänligen aktivera WiFi/mobil data för att hämta ändringsloggen från vår server.</string>
-  <string name="changelog_dialog_ok">Ok</string>
+  <string name="changelog_dialog_ok">OK</string>
 </resources>
