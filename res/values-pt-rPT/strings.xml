@@ -4,9 +4,9 @@
   <string name="duchangelog_appname">Alterações DU</string>
   <string name="duchangelog_weeklies">Modificações DU - Semanais</string>
   <string name="duchangelog_official">Modificações DU - Oficial</string>
-  <string name="warning_text">Please note that change logs generated here are summaries of commits merged into our source. For a full and detailed change log is recommended that you visit our github or gerrit.</string>
-  <string name="weeklies">Weeklies</string>
-  <string name="official">Official</string>
+  <string name="warning_text">Por favor, note que a mudança logs gerados aqui são resumos de commits mesclados na nossa fonte. Para uma mudança completa e detalhada do log é recomendado que você visite nosso github ou gerrit.</string>
+  <string name="weeklies">Semanais</string>
+  <string name="official">Oficial</string>
   <string name="changelog_dialog_title">Atenção</string>
   <string name="changelog_dialog_message">Ative o Wi-Fi/Dados para fazer download do changelog do nosso servidor.</string>
   <string name="changelog_dialog_ok">Ok</string>
