@@ -7,12 +7,12 @@
     <string name="settings">Paramètres</string>
     <string name="cancel">Annuler</string>
     <!-- Gerrit changes -->
-    <string name="change_content"><![CDATA[<b>Message de Commit :</b> %message<br><br>
-        <b>Propriétaire :</b> %owner<br>
-        <b>Fusionné le :</b> %date<br>
-       <b>Branche :</b> %branch<br><br>
-        <b>Nom du dossier :</b> <br>%project
-        ]]></string>
+    <string name="change_content">&lt;b&gt;Message de Commit :&lt;/b&gt; %message&lt;br&gt;&lt;br&gt;
+        &lt;b&gt;Propriétaire :&lt;/b&gt; %owner&lt;br&gt;
+        &lt;b&gt;Fusionné le :&lt;/b&gt; %date&lt;br&gt;
+       &lt;b&gt;Branche :&lt;/b&gt; %branch&lt;br&gt;&lt;br&gt;
+        &lt;b&gt;Nom du dossier :&lt;/b&gt; &lt;br&gt;%project
+        </string>
     <string name="no_changes">Aucun changement récupérable pour le moment</string>
     <string name="no_message">(Aucun message de Commit)</string>
     <string name="owner_and_date" formatted="false">%d par %o</string>

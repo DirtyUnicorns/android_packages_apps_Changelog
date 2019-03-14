@@ -7,12 +7,12 @@
     <string name="settings">Ajustes</string>
     <string name="cancel">Cancelar</string>
     <!-- Gerrit changes -->
-    <string name="change_content"><![CDATA[<b>Mensaje del Commit:</b> %message<br><br>
-        <b>Propietario:</b> %owner<br>
-        <b>Merged:</b> %date<br>
-       <b>Rama:</b> %branch<br><br>
-        <b>Nombre del repo:</b> <br>%project
-        ]]></string>
+    <string name="change_content">&lt;b&gt;Mensaje del Commit:&lt;/b&gt; %message&lt;br&gt;&lt;br&gt;
+        &lt;b&gt;Propietario:&lt;/b&gt; %owner&lt;br&gt;
+        &lt;b&gt;Merged:&lt;/b&gt; %date&lt;br&gt;
+       &lt;b&gt;Rama:&lt;/b&gt; %branch&lt;br&gt;&lt;br&gt;
+        &lt;b&gt;Nombre del repo:&lt;/b&gt; &lt;br&gt;%project
+        </string>
     <string name="no_changes">Parece que éstos son los únicos commits que podemos recuperar en este momento.</string>
     <string name="no_message">(Ningún mensaje de commit)</string>
     <string name="owner_and_date" formatted="false">%d por %o</string>

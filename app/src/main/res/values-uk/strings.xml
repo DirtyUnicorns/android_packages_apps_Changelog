@@ -7,12 +7,12 @@
     <string name="settings">Налаштування</string>
     <string name="cancel">Скаcувати</string>
     <!-- Gerrit changes -->
-    <string name="change_content"><![CDATA[<b>Commit message:</b> %message<br><br>
-        <b>Owner:</b> %owner<br>
-        <b>Merged:</b> %date<br>
-       <b>Branch:</b> %branch<br><br>
-        <b>Repo name:</b> <br>%project
-        ]]></string>
+    <string name="change_content">&lt;b&gt;Commit message:&lt;/b&gt; %message&lt;br&gt;&lt;br&gt;
+        &lt;b&gt;Owner:&lt;/b&gt; %owner&lt;br&gt;
+        &lt;b&gt;Merged:&lt;/b&gt; %date&lt;br&gt;
+       &lt;b&gt;Branch:&lt;/b&gt; %branch&lt;br&gt;&lt;br&gt;
+        &lt;b&gt;Repo name:&lt;/b&gt; &lt;br&gt;%project
+        </string>
     <string name="no_changes">It appears these are the only commits we can retrieve at this moment.</string>
     <string name="no_message">(no commit message)</string>
     <string name="owner_and_date" formatted="false">%d by %o</string>

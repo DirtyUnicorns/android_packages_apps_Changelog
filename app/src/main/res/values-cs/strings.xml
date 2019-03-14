@@ -7,12 +7,12 @@
     <string name="settings">Nastavení</string>
     <string name="cancel">Zrušit</string>
     <!-- Gerrit changes -->
-    <string name="change_content"><![CDATA[<b>Zpráva commitu:</b> %message<br><br>
-        <b>Vlastník:</b> %owner<br>
-        <b>Sloučeno:</b> %date<br>
-       <b>Větev:</b> %branch<br><br>
-        <b>Název repo:</b> <br>%project
-        ]]></string>
+    <string name="change_content">&lt;b&gt;Zpráva commitu:&lt;/b&gt; %message&lt;br&gt;&lt;br&gt;
+        &lt;b&gt;Vlastník:&lt;/b&gt; %owner&lt;br&gt;
+        &lt;b&gt;Sloučeno:&lt;/b&gt; %date&lt;br&gt;
+       &lt;b&gt;Větev:&lt;/b&gt; %branch&lt;br&gt;&lt;br&gt;
+        &lt;b&gt;Název repo:&lt;/b&gt; &lt;br&gt;%project
+        </string>
     <string name="no_changes">Zdá se, že to jsou jediné commity, které můžeme v tuto chvíli načíst.</string>
     <string name="no_message">(žádná zpráva commitu)</string>
     <string name="owner_and_date" formatted="false">%d od %o</string>

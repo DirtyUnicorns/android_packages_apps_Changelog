@@ -7,12 +7,12 @@
     <string name="settings">設定</string>
     <string name="cancel">取消</string>
     <!-- Gerrit changes -->
-    <string name="change_content"><![CDATA[<b>Commit message:</b> %message<br><br>
-        <b>Owner:</b> %owner<br>
-        <b>Merged:</b> %date<br>
-       <b>Branch:</b> %branch<br><br>
-        <b>Repo name:</b> <br>%project
-        ]]></string>
+    <string name="change_content">&lt;b&gt;Commit message:&lt;/b&gt; %message&lt;br&gt;&lt;br&gt;
+        &lt;b&gt;Owner:&lt;/b&gt; %owner&lt;br&gt;
+        &lt;b&gt;Merged:&lt;/b&gt; %date&lt;br&gt;
+       &lt;b&gt;Branch:&lt;/b&gt; %branch&lt;br&gt;&lt;br&gt;
+        &lt;b&gt;Repo name:&lt;/b&gt; &lt;br&gt;%project
+        </string>
     <string name="no_changes">顯然這是我們目前唯一能收到的提交</string>
     <string name="no_message">(無提交訊息)</string>
     <string name="owner_and_date" formatted="false">%d 由 %o</string>

@@ -7,12 +7,12 @@
     <string name="settings">Ayarlar</string>
     <string name="cancel">İptal</string>
     <!-- Gerrit changes -->
-    <string name="change_content"><![CDATA[<b>Commit message:</b> %message<br><br>
-        <b>Owner:</b> %owner<br>
-        <b>Merged:</b> %date<br>
-       <b>Branch:</b> %branch<br><br>
-        <b>Repo name:</b> <br>%project
-        ]]></string>
+    <string name="change_content">&lt;b&gt;Commit message:&lt;/b&gt; %message&lt;br&gt;&lt;br&gt;
+        &lt;b&gt;Owner:&lt;/b&gt; %owner&lt;br&gt;
+        &lt;b&gt;Merged:&lt;/b&gt; %date&lt;br&gt;
+       &lt;b&gt;Branch:&lt;/b&gt; %branch&lt;br&gt;&lt;br&gt;
+        &lt;b&gt;Repo name:&lt;/b&gt; &lt;br&gt;%project
+        </string>
     <string name="no_changes">Görünüşe göre şu anda alabileceğimiz tek girişler bunlar.</string>
     <string name="no_message">(giriş mesajı yok)</string>
     <string name="owner_and_date" formatted="false">%d - %o</string>
@@ -33,17 +33,17 @@
     <string name="this_device">Bu cihaz</string>
     <string name="translations">Çeviriler</string>
     <string name="search">Ara</string>
-    <string name="search_hint">Aygıt adı veya kodu…</string>
+    <string name="search_hint">Cihaz adı veya kodu…</string>
     <!-- Network error -->
-    <string name="network_error">Warning</string>
-    <string name="using_cache">There\'s a problem connecting to our gerrit. Please check your internet connection and try again.</string>
-    <string name="error">Error.</string>
-    <string name="open_gerrit">View on Gerrit</string>
-    <string name="branches">Branches: </string>
+    <string name="network_error">Uyarı</string>
+    <string name="using_cache">Terminal bağlantısı başarısız oldu. Lütfen Internet bağlantınızı kontrol edin ve yeniden deneyin.</string>
+    <string name="error">Hata.</string>
+    <string name="open_gerrit">Gerrit\'te Görüntüle</string>
+    <string name="branches">Bölümler: </string>
     <string name="server_url">Gerrit url</string>
-    <string name="branch">Branch (clear to use all) </string>
-    <string name="retry">Try again</string>
+    <string name="branch">Şube (hepsini kullanmak için temizle) </string>
+    <string name="retry">Tekrar deneyin</string>
     <string name="gerrit">Gerrit</string>
-    <string name="view">View</string>
-    <string name="other">Other</string>
+    <string name="view">Görüntüle</string>
+    <string name="other">Diğer</string>
 </resources>

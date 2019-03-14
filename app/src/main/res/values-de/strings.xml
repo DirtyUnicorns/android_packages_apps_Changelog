@@ -7,12 +7,12 @@
     <string name="settings">Einstellungen</string>
     <string name="cancel">Abbrechen</string>
     <!-- Gerrit changes -->
-    <string name="change_content"><![CDATA[<b>Commit message:</b> %message<br><br>
-        <b>Owner:</b> %owner<br>
-        <b>Merged:</b> %date<br>
-       <b>Branch:</b> %branch<br><br>
-        <b>Repo name:</b> <br>%project
-        ]]></string>
+    <string name="change_content">&lt;b&gt;Commit message:&lt;/b&gt; %message&lt;br&gt;&lt;br&gt;
+        &lt;b&gt;Owner:&lt;/b&gt; %owner&lt;br&gt;
+        &lt;b&gt;Merged:&lt;/b&gt; %date&lt;br&gt;
+       &lt;b&gt;Branch:&lt;/b&gt; %branch&lt;br&gt;&lt;br&gt;
+        &lt;b&gt;Repo name:&lt;/b&gt; &lt;br&gt;%project
+        </string>
     <string name="no_changes">Es scheint, als wären das die einzigen Änderungen die wir momentan abrufen konnten.</string>
     <string name="no_message">(Keine Änderungsnachricht)</string>
     <string name="owner_and_date" formatted="false">%d von %o</string>
@@ -36,12 +36,12 @@
     <string name="search_hint">Gerätename oder Code…</string>
     <!-- Network error -->
     <string name="network_error">Warnung</string>
-    <string name="using_cache">There\'s a problem connecting to our gerrit. Please check your internet connection and try again.</string>
+    <string name="using_cache">Es gibt ein Problem bei der Verbindung zum gerrit. Bitte die Internetverbindung überprüfen und erneut versuchen.</string>
     <string name="error">Fehler.</string>
     <string name="open_gerrit">Auf Gerrit anzeigen</string>
-    <string name="branches">Branches: </string>
+    <string name="branches">Zweige: </string>
     <string name="server_url">Gerrit URL</string>
-    <string name="branch">Branch (clear to use all) </string>
+    <string name="branch">Zweig (zu benutzen) </string>
     <string name="retry">Erneut versuchen</string>
     <string name="gerrit">Gerrit</string>
     <string name="view">Ansicht</string>
