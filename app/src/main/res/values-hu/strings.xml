@@ -36,7 +36,7 @@
     <string name="search_hint">Készülék neve vagy kódja…</string>
     <!-- Network error -->
     <string name="network_error">Figyelmeztetés</string>
-    <string name="using_cache">There\'s a problem connecting to our gerrit. Please check your internet connection and try again.</string>
+    <string name="using_cache">Nem lehet kapcsolódni a gerrit-hez. Ellenőrizze az internetkapcsolatot és próbálkozzon újra.</string>
     <string name="error">Hiba.</string>
     <string name="open_gerrit">Megtekintés a Gerrit-en</string>
     <string name="branches">Ágak: </string>
